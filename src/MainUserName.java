@@ -6,6 +6,6 @@ public class MainUserName {
         System.out.println("Введите ваше имя");
 
         String name = scanner.nextLine();
-        System.out.println("Hello " + name + " !");
+        System.out.println(new StringBuilder().append("Hello ").append(name).append(" !").toString());
     }
 }
